@@ -265,11 +265,6 @@ output "transfer_agreements_tags_all" {
 }
 
 # --- aws_transfer_host_key ---
-output "transfer_host_keys_id" {
-  description = "Map of id values across all transfer_host_keys, keyed the same as var.transfer_host_keys"
-  value       = module.transfer_host_keys.transfer_host_keys_id
-}
-
 output "transfer_host_keys_arn" {
   description = "Map of arn values across all transfer_host_keys, keyed the same as var.transfer_host_keys"
   value       = module.transfer_host_keys.transfer_host_keys_arn
